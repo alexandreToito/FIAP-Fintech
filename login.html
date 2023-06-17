@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Fintech</title>
+</head>
+<body>
+    <div class="w-full h-screen flex items-center justify-center">
+        <div class="flex flex-col items-center gap-y-10">
+            <div class="w-32 h-32 bg-emerald-500 rounded-full flex items-center justify-center">
+                <span class="text-5xl font-bold text-white">F</span>
+            </div>
+            <h1 class="text-3xl font-bold">
+                Welcome to Fintech!
+            </h1>
+
+            <form class="w-full" action="/">
+                <div class="flex flex-col gap-y-5">
+                    <div class="flex flex-col">
+                        <label for="email" >Email</label>
+                        <input class="bg-zinc-300 h-12" type="text" id="email" name="email">
+                    </div>
+
+                    <div class="flex flex-col">    
+                        <label for="password">Password</label>
+                        <input class="bg-zinc-300 h-12" type="text" id="password" name="password">
+                    </div>
+
+                    <button class="w-full h-12 bg-emerald-500 rounded-lg" type="button">Login</button>
+                </div>
+            </form>
+            
+            <div class="flex flex-col items-center gap-y-2">
+                <a class="underline text-blue-600" href="">Forgot Password?</a>
+                <a class="underline text-blue-600" href="./create.html">Create Account</a>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
